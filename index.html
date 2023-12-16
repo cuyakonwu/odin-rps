@@ -3,9 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <title>Page Title</title>
-  <script src="javascript.js"></script>
+  <script src="javascript.js" defer></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <script>game()</script>
+  <div class="scores">
+    <div id="pScore">
+      Player: 0
+    </div>
+    <div id="cScore">
+      Computer: 0
+    </div>
+  </div>
+  <div id="pSelections">
+    <button id="rockBtn" class="pSelect">
+      Rock
+    </button>
+    <button id="paperBtn" class="pSelect">
+      Paper
+    </button>
+    <button id="scissorsBtn" class="pSelect">
+      Scissors
+    </button>
+  </div>
 </body>
 </html>

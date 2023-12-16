@@ -1,0 +1,12 @@
+.scores div{
+    display: inline-block;
+    margin: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
