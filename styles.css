@@ -1,3 +1,9 @@
+body {
+    background-color: #c2cad0;
+    color: #7e6850;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .scores div{
     display: inline-block;
     margin: 10px;
@@ -23,5 +29,25 @@ body {
 }
 
 #winMsg {
-    margin-top: 20px;
+    margin-top: 10px;
+}
+
+.pButton {
+    width: 100px;
+    padding: 10px 30px;
+    margin: 10px;
+    border: solid;
+    border-color: #7e6850;
+    background-color: #afd275;
+    color: #7e6850;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+#pSelections {
+    display: flex;
 }
