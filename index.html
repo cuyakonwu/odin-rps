@@ -2,29 +2,29 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Page Title</title>
-  <script src="javascript.js" defer></script>
+  <title>Rock Paper Scissors</title>
+  <script src="script.js" defer></script>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="scores">
-    <div id="pScore">
+  <div id="scoreCard">
+    <div class="scores" id="pScore">
       Player: 0
+      <div id="pSelect">
+        You selected:
+      </div>
     </div>
-    <div id="cScore">
+    <div class="scores" id="cScore">
       Computer: 0
+      <div id="cSelect">
+        COM selected:</div>
     </div>
   </div>
   <div id="pSelections">
-    <button id="rockBtn" class="pSelect">
-      Rock
-    </button>
-    <button id="paperBtn" class="pSelect">
-      Paper
-    </button>
-    <button id="scissorsBtn" class="pSelect">
-      Scissors
-    </button>
+    <button id="rockBtn" class="pButton">Rock</button>
+    <button id="paperBtn" class="pButton">Paper</button>
+    <button id="scissorsBtn" class="pButton">Scissors</button>
   </div>
+  <div id="winMsg"></div>
 </body>
 </html>

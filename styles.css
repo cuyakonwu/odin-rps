@@ -10,3 +10,18 @@ body {
     flex-direction: column;
     padding: 10px;
 }
+
+#scoreCard {
+    display: flex;
+}
+
+.scores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#winMsg {
+    margin-top: 20px;
+}
